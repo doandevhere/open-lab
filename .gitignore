@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+.nuxt/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Other package manager files
+yarn.lock
+package-lock.json
+.yarn
+.npm
+
+# Environment variables
+.env*
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# cache directories
+.eslintcache
+.cache
