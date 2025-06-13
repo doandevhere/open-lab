@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+}
+
+@layer components {
+  *,
+  *::before,
+  *::after {
+    @apply antialiased font-inter p-0 m-0 box-border;
+  }
+}
